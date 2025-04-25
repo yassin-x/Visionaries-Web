@@ -6,10 +6,6 @@ import Image from "next/image";
 export default function Footer() {
   const pagesLinks = [
     {
-      title: "About",
-      href: `/${Routes.ABOUT}`,
-    },
-    {
       title: "Our Services",
       href: `/${Routes.OURSERVICES}`,
     },

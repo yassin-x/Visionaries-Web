@@ -10,12 +10,12 @@ import Image from "next/image";
 export default function Nav() {
   const links: { name: string; href: string }[] = [
     {
-      name: "About",
-      href: `/${Routes.ABOUT}`,
-    },
-    {
       name: "Our Services",
       href: `/${Routes.OURSERVICES}`,
+    },
+    {
+      name: "FAQ",
+      href: `/${Routes.FAQ}`,
     },
   ];
 
@@ -28,7 +28,7 @@ export default function Nav() {
           <li key={index}>
             <Link
               href={link.href}
-              className={`text-muted-foreground hover:text-primary transition-colors duration-200 tracking-wider ease-in-out ${
+              className={`text-muted-foreground hover:text-primary transition-colors duration-200 tracking-wider ease-in-out  ${
                 pathname.startsWith(link.href) ? "text-primary" : ""
               }`}
             >
