@@ -3,6 +3,7 @@ import "./globals.css";
 import { Readex_Pro } from "next/font/google";
 import Header from "@/components/Header";
 import { Languages } from "@/constants/enums";
+import Footer from "@/components/Footer";
 
 const readex = Readex_Pro({
   subsets: ["latin", "arabic"],
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${readex.className}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -37,14 +37,13 @@ export default function WhyUs() {
         {data.map((item, index) => (
           <div
             key={index}
-            className="bg-card p-6 max-w-md h-full rounded-2xl shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300"
+            className="bg-card p-6 max-w-md h-full rounded-2xl shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 "
           >
             <div className="mb-4 w-20 h-20 mx-auto bg-secondary rounded-full flex items-center justify-center">
               {React.cloneElement(item.icon, {
                 className: "text-primary text-3xl",
               })}
             </div>
-
             <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
             <p className="text-muted-foreground">{item.discription}</p>
           </div>

@@ -23,7 +23,7 @@ export default function HeroSection() {
             tempore laudantium quam quia!
           </p>
           <div className="flex items-center gap-6">
-            <Link href={"https://wa.me/01092580340"} target="_blank">
+            <Link href={"https://wa.me/01270022177"} target="_blank">
               <Button>
                 <FaWhatsapp /> Contact Us
               </Button>

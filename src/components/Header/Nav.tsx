@@ -5,6 +5,7 @@ import Link from "../Link";
 import { Button } from "../ui/button";
 import { usePathname } from "next/navigation";
 import { MenuIcon, XIcon } from "lucide-react";
+import Image from "next/image";
 
 export default function Nav() {
   const links: { name: string; href: string }[] = [
@@ -68,13 +69,23 @@ export default function Nav() {
       </div>
 
       <div
-        className={`bg-card/70 backdrop-blur-2xl h-screen overflow-y-hidden fixed top-0 left-0 w-[60%] z-50 p-6 flex-col md:-translate-x-full transition-transform duration-300 ease-in-out ${
+        className={`bg-card/70 backdrop-blur-2xl h-screen overflow-y-hidden fixed top-0 left-0 w-[70%] z-50 p-6 flex-col md:-translate-x-full transition-transform duration-300 ease-in-out ${
           menuOpen
             ? "flex translate-x-0 pointer-events-auto"
             : "-translate-x-full pointer-events-none"
         }`}
       >
-        <ul className="flex flex-col items-start gap-4">
+        <div className="element-center">
+          <Image
+            src={"/images/logo.png"}
+            width={980}
+            height={1080}
+            alt="Visionaries logo"
+            priority
+            className="w-12 h-12"
+          />
+        </div>
+        <ul className="flex flex-col items-start gap-4 mt-4">
           {links.map((link, index) => (
             <li key={index}>
               <Link
