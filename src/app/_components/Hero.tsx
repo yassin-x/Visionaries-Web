@@ -22,7 +22,7 @@ export default function HeroSection() {
             impedit accusamus molestias nemo saepe ullam magnam ab illo id. Sed
             tempore laudantium quam quia!
           </p>
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-6 justify-center md:justify-normal">
             <Link href={"https://wa.me/01270022177"} target="_blank">
               <Button>
                 <FaWhatsapp /> Contact Us

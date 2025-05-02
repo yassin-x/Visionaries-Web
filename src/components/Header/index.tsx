@@ -5,7 +5,7 @@ import Nav from "./Nav";
 
 export default function Header() {
   return (
-    <header className="py-3 bg-card">
+    <header className="py-3">
       <div className="container flex items-center">
         <div className="flex items-center justify-between w-full">
           <Link href={Routes.ROOT}>
