@@ -11,21 +11,21 @@ export default function WhyUs() {
     icon: React.ReactElement<any, any>;
   }[] = [
     {
-      title: "Fresh Vision",
+      title: "Every Frame Tells a Story",
       discription:
-        "We bring a fresh and bold perspective to every project we touch.",
+        "We don’t just shoot films—we craft stories that last. Every frame, every cut, every sound is designed to connect deeply with your audience.",
       icon: <FaServicestack />,
     },
     {
-      title: "Personalized Approach",
+      title: "Creative Development",
       discription:
-        "Your story is unique, and our work is tailored to reflect that.",
+        "from brainstorming to scriptwriting, we shape ideas into powerful stories.",
       icon: <FaServicestack />,
     },
     {
-      title: "Creative Minds",
+      title: "Pre-Production",
       discription:
-        "We harness the power of creativity to bring your vision to life.",
+        "casting, location scouting, storyboarding, and everything needed to prepare for the perfect shoot.",
       icon: <FaServicestack />,
     },
   ];

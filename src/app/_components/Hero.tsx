@@ -13,14 +13,10 @@ export default function HeroSection() {
           <p className="text-muted-foreground text-sm">
             Broadcasting & media production company
           </p>
-          <h2 className="text-4xl font-bold text-primary">
-            Visionaries Films
-          </h2>
+          <h2 className="text-4xl font-bold text-primary">Visionaries Films</h2>
           <p className="text-muted-foreground">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Distinctio, deleniti atque! Facilis, unde similique delectus,
-            impedit accusamus molestias nemo saepe ullam magnam ab illo id. Sed
-            tempore laudantium quam quia!
+            Visionaries is a dynamic filmmaking company dedicated to crafting
+            compelling, high-quality visual stories
           </p>
           <div className="flex items-center gap-6 justify-center md:justify-normal">
             <Link href={"https://wa.me/01270022177"} target="_blank">
