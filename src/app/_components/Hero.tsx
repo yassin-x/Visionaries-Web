@@ -33,7 +33,7 @@ export default function HeroSection() {
         </div>
         <div className="max-w-md mx-auto hidden md:flex">
           <Image
-            src={"/vectors/hero-section.svg"}
+            src={"/vectors/hero-section.png"}
             alt={"Hero Section"}
             width={980}
             height={1080}
